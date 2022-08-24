@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/domKirs/once-upon-a-div/issues"
   },
-  "homepage": "https://github.com/domKirs/once-upon-a-div#readme"
+  "homepage": "https://github.com/domKirs/once-upon-a-div#readme",
+  "devDependencies": {
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0"
+  }
 }
