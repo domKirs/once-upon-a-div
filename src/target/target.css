@@ -1,0 +1,37 @@
+.target {
+  background-image: radial-gradient(circle at center, white , thistle);
+
+  div {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    box-shadow: inset 8px 0 indianred;
+    background-repeat: no-repeat;
+    background-image: repeating-radial-gradient(circle, white, white 20px, lightcoral 21px, lightcoral 40px, white 41px, white 60px, lightcoral 61px, lightcoral 81px);
+    
+    &::before,
+    &::after {
+      display: block;
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
+    }
+
+    &::before {
+      width: 100px;
+      height: 100px;
+      transform: translate(77px, -19px);
+      background-image: radial-gradient(9% 15% ellipse at 64% 22%, lightskyblue 20px, transparent 20px), radial-gradient(15% 9% ellipse at 80% 36%, lightskyblue 20px, transparent 20px), radial-gradient(9% 15% ellipse at 50% 36%, lightskyblue 20px, transparent 20px), radial-gradient(15% 9% ellipse at 66% 50%, lightskyblue 20px, transparent 20px), radial-gradient(9% 15% ellipse at 38% 54%, lightskyblue 20px, transparent 20px), radial-gradient(15% 9% ellipse at 50% 63%, lightskyblue 20px, transparent 20px);
+    }
+
+    &::after {
+      top: 50%;
+      left: 50%;
+      width: 12px;
+      height: 96px;
+      border-radius: 10px 10px 0 0;
+      transform: rotate(45deg) translate(-38px, -75px);
+      background-image: linear-gradient(to left, cornflowerblue, cornflowerblue 6px, royalblue 6px, royalblue);
+    }
+  }  
+}
