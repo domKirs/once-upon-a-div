@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.entry {
+  text-align: center;
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

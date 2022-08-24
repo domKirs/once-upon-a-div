@@ -1,3 +1,4 @@
+@import "./base/base.css";
 @import "./burger/burger.css";
 @import "./planet/planet.css";
 @import "./ring-animation/ring-animation.css";
