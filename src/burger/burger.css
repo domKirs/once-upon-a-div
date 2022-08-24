@@ -1,0 +1,42 @@
+.planet {
+  background-image: radial-gradient(circle at center, cornflowerblue, darkslateblue);
+
+  div {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    border: 24px solid gold;
+    transform: rotateX(72deg) rotateY(-16deg);
+    transform-style: preserve-3d;
+    border-radius: 50%;
+    
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      transform: rotateX(-72deg) rotateY(16deg);
+      border-radius: 50%;
+    }
+
+    &::before {
+      width: 140px;
+      height: 140px;
+      top: 50%;
+      left: 50%;
+      margin-left: -70px;
+      margin-top: -70px;
+      background-color: mediumturquoise;
+      box-shadow: inset -16px -8px lightseagreen;
+    }
+
+    &::after {
+      width: 40px;
+      height: 40px;
+      top: -104px;
+      left: 96px;
+      background-color: tomato;
+      box-shadow: inset -8px -6px orangered;
+    }
+  }
+}
