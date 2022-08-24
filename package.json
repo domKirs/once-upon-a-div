@@ -19,6 +19,7 @@
   "homepage": "https://github.com/domKirs/once-upon-a-div#readme",
   "devDependencies": {
     "postcss": "^8.4.16",
-    "postcss-cli": "^10.0.0"
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0"
   }
 }
