@@ -1,27 +1,27 @@
 {
-  "name": "once-upon-a-div",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "postcss:watch": "postcss src/style.css -d public --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/domKirs/once-upon-a-div.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/domKirs/once-upon-a-div/issues"
-  },
-  "homepage": "https://github.com/domKirs/once-upon-a-div#readme",
-  "devDependencies": {
-    "cssnano": "^5.1.13",
-    "postcss": "^8.4.16",
-    "postcss-cli": "^10.0.0",
-    "postcss-import": "^14.1.0",
-    "postcss-nested": "^5.0.6"
-  }
+	"name": "once-upon-a-div",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"postcss:watch": "postcss src/style.css -d public --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/domKirs/once-upon-a-div.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/domKirs/once-upon-a-div/issues"
+	},
+	"homepage": "https://github.com/domKirs/once-upon-a-div#readme",
+	"devDependencies": {
+		"cssnano": "^5.1.13",
+		"postcss": "^8.4.16",
+		"postcss-cli": "^10.0.0",
+		"postcss-import": "^14.1.0",
+		"postcss-nested": "^5.0.6"
+	}
 }
