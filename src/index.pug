@@ -1,5 +1,23 @@
+//- code section start
+
+//- add new entries in array below
+- 
+  var entries = [
+    'burger', 
+    'planet', 
+    'ring-animation',
+    'target',
+  ]
+
+mixin entry(entry)
+  div(class = `entry ${entry}`)
+    div
+
+//- code section end
+
 doctype html
 html(lang='en')
+
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
@@ -7,8 +25,7 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='stylesheet', href='style.css')
     title Once upon a div
+
   body
-    include burger/burger.pug
-    include planet/planet.pug
-    include ring-animation/ring-animation.pug
-    include target/target.pug
+    each entry in entries
+      +entry(entry)
