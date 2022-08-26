@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"watch:postcss": "postcss src/style.css -d public --watch",
-		"watch:pug": "pug src/index.pug -o public --watch",
+		"watch:postcss": "postcss src/postcss/style.css -d public --watch",
+		"watch:pug": "pug src/index.pug -o public --pretty --watch",
 		"start": "npm-run-all --parallel watch:postcss watch:pug "
 	},
 	"repository": {
