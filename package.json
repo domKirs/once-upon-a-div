@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"postcss:watch": "postcss src/style.css -d public --watch"
+		"postcss:watch": "postcss src/style.css -d public --watch",
+		"pug:watch": "pug src/index.pug -o public --watch --pretty"
 	},
 	"repository": {
 		"type": "git",
@@ -22,6 +23,8 @@
 		"postcss": "^8.4.16",
 		"postcss-cli": "^10.0.0",
 		"postcss-import": "^14.1.0",
-		"postcss-nested": "^5.0.6"
+		"postcss-nested": "^5.0.6",
+		"pug": "^3.0.2",
+		"pug-cli": "^1.0.0-alpha6"
 	}
 }
