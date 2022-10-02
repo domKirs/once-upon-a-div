@@ -21,10 +21,25 @@ html(lang='en')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='description', content='Some description')
+    meta(name='description', content='Some little CSS drawings made out of a single div')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='stylesheet', href='style.css')
     title Once upon a div
+
+    meta(property='og:url', content='https://once-upon-a-div.netlify.app/')
+    meta(property='og:type', content='website')
+    meta(property='og:title', content='Once upon a div')
+    meta(property='og:description', content='Some little CSS drawings made out of a single div')
+    meta(property='og:image', content='https://once-upon-a-div.netlify.app/meta/bullseye.png')
+
+    meta(name='twitter:card', content='summary_large_image')
+    meta(property='twitter:domain', content='once-upon-a-div.netlify.app')
+    meta(property='twitter:url', content='https://once-upon-a-div.netlify.app/')
+    meta(name='twitter:title', content='Once upon a div')
+    meta(name='twitter:description', content='Some little CSS drawings made out of a single div')
+    meta(name='twitter:image', content='https://once-upon-a-div.netlify.app/meta/bullseye.png')
+        
+        
 
   body
     each entry in entries
